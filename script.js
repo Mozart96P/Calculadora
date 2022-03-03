@@ -1,6 +1,17 @@
 
-function botao(num){
-var salvo = document.formulario.display.value;                 
-document.formulario.display.value = salvo + num;
+function insert(num){
+                salvo = document.getElementById("display").innerHTML;
+                document.getElementById("display").innerHTML =  salvo + num;
+}
+
+function clean(){
+                document.getElementById("display").innerHTML = "";
+}
+
+function calcular(){
+                 var resultado = document.getElementById("display").innerHTML
+                if(resultado){
+                                document.getElementById("display").innerHTML = eval(resultado);
+                }
 
 }

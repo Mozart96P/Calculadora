@@ -13,30 +13,30 @@
 <body>
                 <div id="container" name="formulario">
 
-                                <input id="display" type="text" name="display"/>
+                                <div id="display" name="display"></div>>
                                 <div class="grupo-btns">
-                                                <button class="btn-num" value="7" onclick="botao(value)">7</button>
-                                                <button class="btn-num" value="8">8</button>
-                                                <button class="btn-num" value="9">9</button>
-                                                <button class="btn-num" value="+">+</button>
+                                                <button class="btn-num"  onclick="insert('7')">7</button>
+                                                <button class="btn-num"  onclick="insert('8')">8</button>
+                                                <button class="btn-num"  onclick="insert('9')">9</button>
+                                                <button class="btn-num"  onclick="insert('+')">+</button>
                                 </div>
                                 <div class="grupo-btns">
-                                                <button class="btn-num" value="4">4</button>
-                                                <button class="btn-num" value="5">5</button>
-                                                <button class="btn-num" value="6">6</button>
-                                                <button class="btn-num" value="-">-</button>
+                                                <button class="btn-num"  onclick="insert('4')">4</button>
+                                                <button class="btn-num"  onclick="insert('5')">5</button>
+                                                <button class="btn-num"  onclick="insert('6')">6</button>
+                                                <button class="btn-num"  onclick="insert('-')">-</button>
                                 </div>
                                 <div class="grupo-btns">
-                                                <button class="btn-num" value="3">3</button>
-                                                <button class="btn-num" value="2">2</button>
-                                                <button class="btn-num" value="1">1</button>
-                                                <button class="btn-num" value="/">/</button>
+                                                <button class="btn-num"  onclick="insert('3')">3</button>
+                                                <button class="btn-num"  onclick="insert('2')">2</button>
+                                                <button class="btn-num"  onclick="insert('1')">1</button>
+                                                <button class="btn-num"  onclick="insert('/')">/</button>
                                 </div>
                                 <div class="grupo-btns">
-                                                <button class="btn-num" value="C">C</button>
-                                                <button class="btn-num" value="0">0</button>
-                                                <button class="btn-num" value="=">=</button>
-                                                <button class="btn-num" value="x">x</button>
+                                                <button class="btn-num"  onclick="clean()">C</button>
+                                                <button class="btn-num"  onclick="insert('0')">0</button>
+                                                <button class="btn-num"  onclick="calcular()">=</button>
+                                                <button class="btn-num"  onclick="insert('*')">x</button>
                                 </div>
                 </div>
                 
